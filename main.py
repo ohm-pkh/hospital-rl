@@ -21,7 +21,7 @@ init_fonts()
 
 from config import WIDTH, HEIGHT
 screen = pygame.display.set_mode((WIDTH, HEIGHT))
-pygame.display.set_caption("Hospital Triage RL — Pure Q-Learning")
+pygame.display.set_caption("Hospital Bed Allocation Simulation")
 clock = pygame.time.Clock()
 
 # ── Wire up the episode logger into the environment module ───────
