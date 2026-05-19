@@ -164,7 +164,7 @@ def draw(screen, env, episode: int, avg_rewards: list,
     occ = env.occupancy
 
     # Header
-    label(screen, "Hospital Triage — Pure Q-Learning", (20, 13), font_lg, WHITE)
+    label(screen, "Hospital Bed Allocation", (20, 13), font_lg, WHITE)
     shift_txt = "NIGHT SHIFT" if env.is_night else "Day Shift"
     label(screen, shift_txt, (WIDTH-175, 13), font_md, PURPLE if env.is_night else YELLOW)
     if env.is_mass_cas:
