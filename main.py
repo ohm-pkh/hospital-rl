@@ -1,7 +1,3 @@
-"""
-Hospital Bed Allocation — Pure RL (Refactored)
-Entry point: runs the Q-learning training loop and shows post-training charts.
-"""
 
 import pygame
 import numpy as np
